@@ -6,9 +6,9 @@ function takeANumber (line, customer){
 
 function takeANumber (line){
   var lineOfTheDay = line
-  
-  var placeInLine = line.indexOf(customer, 0) + 1
-  return "Welcome, you are number " + placeInLine +"."}
+  line.push(1)
+  var placeInLine = 
+  return "Welcome, you are number " + line[0] +"."}
 
 
 function nowServing(line) {
