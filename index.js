@@ -4,11 +4,12 @@ function takeANumber (line, customer){
   return "Welcome, " + customer  + ". You are number " + placeInLine + " in line."
 }
 
+var newPerson = 0
+
 function takeANumber (line){
-  var newPerson
+  newPerson++
   line.push(newPerson)
-  var placeInLine = 
-  return "Welcome, you are number " + 1 +"."}
+  return "Welcome, you are number " + newPerson +"."}
 
 
 function nowServing(line) {
