@@ -5,10 +5,10 @@ function takeANumber (line, customer){
 }
 
 function takeANumber (line){
-  var lineOfTheDay = line
-  line.push(1)
+  var newPerson
+  line.push(newPerson)
   var placeInLine = 
-  return "Welcome, you are number " + line[0] +"."}
+  return "Welcome, you are number " + 1 +"."}
 
 
 function nowServing(line) {
