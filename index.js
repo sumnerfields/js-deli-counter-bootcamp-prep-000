@@ -4,6 +4,13 @@ function takeANumber (line, customer){
   return "Welcome, " + customer  + ". You are number " + placeInLine + " in line."
 }
 
+function takeANumber (line){
+  var lineOfTheDay = line
+  
+  var placeInLine = line.indexOf(customer, 0) + 1
+  return "Welcome, you are number " + placeInLine +"."}
+
+
 function nowServing(line) {
   var firstInLine = []
   if (line.length === 0) 
